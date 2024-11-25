@@ -6,11 +6,11 @@ Git is a versioning control tools used to manage project.
 Here's the straight forward guidelines on how to install git on your machine 
 > https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-Run this command on Terminal/Poweshell to check Git was properly installed :
+Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 
-   ```bash
-   git -v
-
+   ```console
+   sh-3.2# git -v
+   git version 2.46.0
    ```
 ## 2. Register Device using SSH-Key 
 To manage shared projects that were set to private, you need an SSH-Key setup.
