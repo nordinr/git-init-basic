@@ -55,4 +55,4 @@ Git clone command
 # PART 02
 
 ## 1. Branch
-This repo has 3 branches. `master and development`
+This repo has 2 branches. `master and development`
