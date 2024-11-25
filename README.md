@@ -8,10 +8,9 @@ Here's the straight forward guidelines on how to install git on your machine
 
 Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 
-      ```
       git -v
       git version 2.46.0
-      ```
+      
 ## 2. Register Device using SSH-Key 
 To manage shared projects that were set to private, you need an SSH-Key setup.
 
