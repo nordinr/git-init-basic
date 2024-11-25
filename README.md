@@ -17,7 +17,7 @@ To manage shared projects that were set to private, you need an SSH-Key setup.
 
 1. Open `Terminal` for MacOs or `Powershell` on Windows and type
 
-   ```bash
+   ```console
    ssh-keygen -t rsa -C "Your Workstation/PC Name"
    ```
 2. Copy and Paste the pubkey to your SSH-Key records in github account.
