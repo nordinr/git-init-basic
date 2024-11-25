@@ -55,4 +55,6 @@ Git clone command
 # PART 02
 
 ## 1. Branch
-This repo has 2 basic branches. `master and development`
+This repo has 2 basic branches. `master and development`.
+
+Place this repo on a 
