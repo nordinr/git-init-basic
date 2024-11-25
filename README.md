@@ -57,4 +57,4 @@ Git clone command
 ## 1. Branch
 This repo has 2 basic branches. `master and development`.
 
-Place this repo on a directory and open the example/index.html in any browser.
+Place this repo on a directory and open file `example/index.html` in any browser.
