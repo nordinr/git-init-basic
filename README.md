@@ -1,7 +1,7 @@
 # Git Basic Guide (Step-by-Step)
 
 Git is a versioning control tools used to manage project.
-
+# PART 01
 ## 1. Installing Git
 Here's the straight forward guidelines on how to install git on your machine 
 > https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
