@@ -38,7 +38,8 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 
 ![clone a project using ssh](./assets/clone.png)
 
-Clone command
+
+Git clone command
 
    ```bash
    git clone git@github.com:nordinr/git-init-basic.git
