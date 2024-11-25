@@ -19,7 +19,7 @@ Open `Terminal` for MacOs or `Powershell` on Windows and type
    ```bash
    ssh-keygen -t rsa -C "Your Workstation/PC Name"
    ```
-Copy and Paste the pubkey to your SSH-Key records in github account.
+Copy and Paste the pubkey to your SSH-Key records in github account [here](https://github.com/settings/keys)
 
    _MacOs :_
    ```bash
