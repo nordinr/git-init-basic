@@ -51,3 +51,8 @@ Git clone command
    ```
 
  [End of Part 01]
+
+# PART 02
+
+## 1. Branch
+This repo has 3 branches. `master, dev and feature`
