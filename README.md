@@ -31,3 +31,9 @@ _Note: Other method to access or giving access is to set an __access token___
 
 
 ## 3. Clone a repository
+Go to 
+> https://github.com/nordinr/git-init-basic/
+
+Hit the code button (blue-colored) and copy the clone url (SSH)
+
+![clone a project using ssh](./assets/clone.png)
