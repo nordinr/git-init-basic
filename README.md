@@ -1,6 +1,6 @@
 # Git Basic
 
-Git is a versioning control tools used to manage project from development to deployment.
+Git is a versioning control tools used to manage project.
 
 ## 1. Installing Git
 Here's the straight forward guidelines on how to install git on your machine 
