@@ -1,4 +1,4 @@
-# Git Basic
+# Git Basic Guide (Step-by-Step)
 
 Git is a versioning control tools used to manage project.
 
@@ -43,3 +43,5 @@ Clone command
    ```bash
    git clone git@github.com:nordinr/git-init-basic.git
    ```
+
+ [End of Part 01]
