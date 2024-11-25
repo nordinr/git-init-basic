@@ -21,7 +21,7 @@ Open `Terminal` for MacOs or `Powershell` on Windows and type
    ```
 Copy and Paste the pubkey to your SSH-Key records in github account.
 
-     _MacOs :_
+   _MacOs :_
    ```bash
    cat ~/.ssh/id_rsa.pub
    ```
