@@ -14,22 +14,22 @@ Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 ## 2. Register Device using SSH-Key 
 To manage shared projects that were set to private, you need an SSH-Key setup.
 
-1. Open `Terminal` for MacOs or `Powershell` on Windows and type
+Open `Terminal` for MacOs or `Powershell` on Windows and type
 
-   ```console
+   ```bash
    ssh-keygen -t rsa -C "Your Workstation/PC Name"
    ```
-2. Copy and Paste the pubkey to your SSH-Key records in github account.
+Copy and Paste the pubkey to your SSH-Key records in github account.
 
      _MacOs :_
-   ```console
+   ```bash
    cat ~/.ssh/id_rsa.pub
    ```
    _Windows :_
    ```bash
    cat .ssh/id_rsa.pub # - on your User Directory
    ```
-4. From this point, you can clone and manage all private repositories assigned to or shared with you without password
+From this point, you can clone and manage all private repositories assigned to or shared with you without password
 
 _Note: Other method to access or giving access is to set an __access token___
 
