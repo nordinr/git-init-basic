@@ -70,8 +70,8 @@ Semantic versioning follows the format:<br>
 ```
 <MAJOR.MINOR.PATCH>
 
-MAJOR: Incremented for breaking changes.<br>
-MINOR: Incremented for new features that are backward-compatible.<br>
+MAJOR: Incremented for breaking changes.
+MINOR: Incremented for new features that are backward-compatible.
 PATCH: Incremented for backward-compatible bug fixes.
 
 eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
