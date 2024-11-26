@@ -149,5 +149,5 @@ http://localhost:792 <---php82
 
 ## Docker Registry (Dockerhub)
 Explore images that can be use to deploy a container in docker registry : https://hub.docker.com
-![clone a project using ssh](./assets/dockerhub.png)
+![Dockerhub](./assets/dockerhub.png)
 -END-
