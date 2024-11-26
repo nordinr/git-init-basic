@@ -119,7 +119,7 @@ services:
    ✔ Container php82 Started                                    0.4s 
    ✔ Container php83  Started                                   0.4s
    ```
-   This wil deploy 2 container. 
+   This wil deploy 2 containers. 
 
    ```bash
    docker ps
@@ -140,7 +140,7 @@ volumes:
       - ./php82:/var/www/html <--- php82
 ```
 
-You can place your project files inside those folder and access them with exposed url on localhost, for this case 
+You can place your project files inside those folders and access them with exposed url on localhost, for this case 
 
 http://localhost:791 <---php83<br>
 http://localhost:792 <---php82
