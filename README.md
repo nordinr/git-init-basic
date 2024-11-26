@@ -131,7 +131,7 @@ services:
 
    ```
 
-Now you already deploy 2 containers each that serve different version of phps. If we see the volume mapping part on `compose.yaml`, `php83` and `php82` projects folder were located on its own separate folder.
+Now you already deploy 2 containers each that serve different version of phps. If we see the volume mapping part on `compose.yaml`, `php83` and `php82` projects folder were located on its own separate folders.
 
 ```yaml
 volumes:
