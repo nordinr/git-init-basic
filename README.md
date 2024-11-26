@@ -17,7 +17,7 @@ To manage shared projects that were set to private, you need an SSH-Key setup.
 Open `Terminal` for MacOs or `Powershell` on Windows and type
 
    ```bash
-   ssh-keygen -t rsa -C "Your Workstation/PC Name"
+   ssh-keygen -t rsa -C "<whatever-remark>"
    ```
 Copy and Paste the pubkey to your SSH-Key records in github account [here](https://github.com/settings/keys)
 
@@ -54,11 +54,27 @@ Git clone command
    git clone git@github.com:nordinr/git-init-basic.git
    ```
 
- [End of Part 01]
 
-# PART 02
+## 4. Branch
+Branch is a feature that separate repo to a different copies. Some repo owner use branch to separate versions instead. That's depends on your branch strategy. In general, branch were used to make copies of your project and modify them for the next versions. 
 
-## 1. Branch
-This repo has 2 basic branches. `master and development`.
+> master or main branch also called a **stable** branch that contains most stable code of the project. 
 
-Place this repo on a directory and open file `example01/index.html` in any browser.
+## 5. Merge and Pull Request
+After making a changes on a branch, feature or dev, normal practice is to merge them into main before release. This also called Pull Request.
+
+## 6. Tag and Release
+When a project reach some progress point, a good practice is to introduce a tag and release point. Also called version.
+
+Semantic versioning follows the format:<br>
+```
+<MAJOR.MINOR.PATCH>
+
+MAJOR: Incremented for breaking changes.<br>
+MINOR: Incremented for new features that are backward-compatible.<br>
+PATCH: Incremented for backward-compatible bug fixes.
+
+eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
+```
+
+
