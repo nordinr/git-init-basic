@@ -146,4 +146,8 @@ You can place your project files inside those folders and access them with expos
 http://localhost:791 <---php83<br>
 http://localhost:792 <---php82
 
+
+## Docker Registry (Dockerhub)
+Explore images that can be use to deploy a container in docker registry : https://hub.docker.com
+![clone a project using ssh](./assets/dockerhub.png)
 -END-
