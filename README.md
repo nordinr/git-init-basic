@@ -1,7 +1,7 @@
-# Git Basic Guide (Step-by-Step)
+# Git and Docker Introduction
 
 Git is a versioning control tools used to manage project and track changes.
-# PART 01
+# PART 01 - Git Basic Guide (Step-by-Step)
 ## 1. Installing Git
 Here's the straight forward guidelines on how to install git on your machine 
 > https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -67,7 +67,7 @@ After making a changes on a branch, feature or dev, normal practice is to merge 
 When a project reach some progress point, a good practice is to introduce a tag and release point. Also called version.
 
 Semantic versioning follows the format:<br>
-```
+```yaml
 <MAJOR.MINOR.PATCH>
 
 MAJOR: Incremented for breaking changes.
@@ -78,3 +78,46 @@ eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
 ```
 This basic introduction was made for PITA Projects' Students, UMT
 
+# PART 02 - Docker (very) Basic
+For this practice, i assume docker were installed on your workstation
+
+To install docker, go to : https://docs.docker.com/desktop/
+
+## Running Docker Compose File
+Here are the compose file that was prepared for you to run. Be free to ask chatgpt on what it is all about. Make sure you clone this repo to a directory on your workstation.
+
+```yaml
+---
+services:
+  php83:
+    container_name: php83
+    image: nordinr/php83-oci8:latest
+    ports:
+      - 791:80
+    restart: always
+    volumes:
+      - ./php83:/var/www/html
+  php82:
+    container_name: php82
+    image: nordinr/php82-oci8:latest
+    ports:
+      - 792:80
+    restart: always
+    volumes:
+      - ./php82:/var/www/html
+   ```
+
+   To deploy containers in this file, make sure you are in the project folder 
+
+   ```bash
+   cd git-init-basic       # go inside project folder
+   
+   docker compose up -d    # run this command to bring up containers
+   ```
+   This wil deploy 2 container. 
+
+   ```bash
+   docker ps
+
+   
+   ```
