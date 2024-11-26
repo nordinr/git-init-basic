@@ -79,7 +79,7 @@ eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
 This basic introduction was made for PITA Projects' Students, UMT
 
 # PART 02 - Docker (very) Basic
-![clone a project using ssh](./assets/docker.png)
+![docker logo](./assets/docker.png)
 For this practice, i assume docker were installed on your workstation
 
 To install docker, go to : https://docs.docker.com/desktop/
