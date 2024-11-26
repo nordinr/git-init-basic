@@ -1,6 +1,6 @@
 # Git Basic Guide (Step-by-Step)
 
-Git is a versioning control tools used to manage project.
+Git is a versioning control tools used to manage project and track changes.
 # PART 01
 ## 1. Installing Git
 Here's the straight forward guidelines on how to install git on your machine 
