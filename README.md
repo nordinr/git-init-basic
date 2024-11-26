@@ -29,10 +29,14 @@ Copy and Paste the pubkey to your SSH-Key records in github account [here](https
    ```bash
    cat .ssh/id_rsa.pub # - on your User Directory
    ```
+
+> <b>make sure to run below commands to set user on your workstation : </b><br>
+> git config --global user.name "Your Github User" <br>
+> git config --global user.email email@ofyourgitlab 
+
 From this point, you can clone and manage all private repositories assigned to or shared with you without password
 
 _Note: Other method to access or giving access is to set an __access token___
-
 
 
 ## 3. Clone a repository
