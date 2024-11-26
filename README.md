@@ -80,6 +80,8 @@ This basic introduction was made for PITA Projects' Students, UMT
 
 # PART 02 - Docker (very) Basic
 ![docker logo](./assets/docker.png)
+
+
 For this practice, i assume docker were installed on your workstation
 
 To install docker, go to : https://docs.docker.com/desktop/
@@ -149,5 +151,7 @@ http://localhost:792 <---php82
 
 ## Docker Registry (Dockerhub)
 Explore images that can be use to deploy a container in docker registry : https://hub.docker.com
+
+
 ![Dockerhub](./assets/dockerhub.png)
 -END-
