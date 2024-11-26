@@ -76,5 +76,5 @@ PATCH: Incremented for backward-compatible bug fixes.
 
 eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
 ```
-
+This basic introduction was made for PITA Projects' Students, UMT
 
