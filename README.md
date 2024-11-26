@@ -84,7 +84,7 @@ For this practice, i assume docker were installed on your workstation
 To install docker, go to : https://docs.docker.com/desktop/
 
 ## Running Docker Compose File
-Here are the compose file that was prepared for you to run. Be free to ask chatgpt on what it is all about. Make sure you clone this repo to a directory on your workstation.
+Here are the compose file name `compose.yaml` that was prepared for you to run. Be free to ask google/chatgpt on what it is all about. Make sure you clone this repo to a directory on your workstation.
 
 ```yaml
 ---
@@ -113,11 +113,36 @@ services:
    cd git-init-basic       # go inside project folder
    
    docker compose up -d    # run this command to bring up containers
+   
+   # returned output
+   [+] Running 2/2
+   ✔ Container php82 Started                                    0.4s 
+   ✔ Container php83  Started                                   0.4s
    ```
    This wil deploy 2 container. 
 
    ```bash
    docker ps
 
-   
+   # returned output
+   CONTAINER ID   IMAGE                       COMMAND                  CREATED         STATUS         PORTS                 NAMES
+8089c54530ef   nordinr/php83-oci8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.0.0.0:791->80/tcp   php83
+5cd5557f2883   nordinr/php82-oci8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.0.0.0:792->80/tcp   php82
+
    ```
+
+Now you already deploy 2 containers each that serve different version of phps. If we see the volume mapping part on `compose.yaml`, `php83` and `php82` projects folder were located on its own separate folder.
+
+```yaml
+volumes:
+      - ./php83:/var/www/html <--- php83
+volumes:
+      - ./php82:/var/www/html <--- php82
+```
+
+You can place your project files inside those folder and access them with exposed url on localhost, for this case 
+
+http://localhost:791 <---php83<br>
+http://localhost:792 <---php82
+
+-END-
