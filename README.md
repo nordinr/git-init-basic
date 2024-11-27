@@ -49,12 +49,12 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 
 
 Go to your workstation, open terminal on your work directory and type git clone command. 
-Git clone command
+Git clone command :
 
    ```bash
    git clone git@github.com:nordinr/git-init-basic.git
    ```
-
+You will find a folder named 'git-init-basic' containing repo files from this github. 
 
 ## 4. Branch
 Branch is a feature that separate repo to a different copies. Some repo owner use branch to separate versions instead. That's depends on your branch strategy. In general, branch were used to make copies of your project and modify them for the next versions. 
