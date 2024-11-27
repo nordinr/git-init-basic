@@ -48,6 +48,7 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 ![clone a project using ssh](./assets/clone.png)
 
 
+Go to your workstation, open terminal on your work directory and type git clone command. 
 Git clone command
 
    ```bash
