@@ -31,7 +31,7 @@ Copy and Paste the pubkey to your SSH-Key records in github account [here](https
 
 _MacOs :_
 
-```bash {"id":"01JE8WEDR6WKG188FYJ257V01Z"}
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
