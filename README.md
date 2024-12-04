@@ -77,7 +77,6 @@ git clone git@github.com:nordinr/git-init-basic.git
 
 You will find a folder named 'git-init-basic' containing repo files from this github.
 
-> > > > > > > fabfd4e1c01373f23a4f185b42836002052f35c2
 
 ## 4. Branch
 
