@@ -13,7 +13,7 @@ Here's the straight forward guidelines on how to install git on your machine
 
 Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 
-```bash {"id":"01JE8WPX4SA9MV0HS3E021QYFT"}
+```bash
 git -v
 ```
 
