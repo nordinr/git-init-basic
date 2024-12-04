@@ -37,7 +37,7 @@ cat ~/.ssh/id_rsa.pub
 
 _Windows :_
 
-```bash {"id":"01JE8WEDR6WKG188FYJ3JE3R8H"}
+```bash
 cat .ssh/id_rsa.pub # - on your User Directory
 ```
 
