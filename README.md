@@ -1,10 +1,5 @@
----
-runme:
-  id: 01JE8WX1B5GEAQZFEMYCP9VHNK
-  version: v3
----
 
-# GIT-DOCKER INTRODUCTION
+# Introduction to GIT+DOCKER
 
 # PART 01 - Git Basic Guide (Step-by-Step)
 
