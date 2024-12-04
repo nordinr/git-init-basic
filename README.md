@@ -23,7 +23,7 @@ To manage shared projects that were set to private, you need an SSH-Key setup.
 
 Open `Terminal` for MacOs or `Powershell` on Windows and type
 
-```bash {"id":"01JE8WEDR6WKG188FYHZED22FD"}
+```bash
 ssh-keygen -t rsa -C "<whatever-remark>"
 ```
 
