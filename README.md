@@ -12,8 +12,13 @@ Here's the straight forward guidelines on how to install git on your machine
 
 Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 
+```bash
       git -v
-      git version 2.46.0
+```
+
+```bash {"id":"01JE8WPX4SA9MV0HS3E021QYFT"}
+git -v
+```
 
 ## 2. Register Device using SSH-Key
 
