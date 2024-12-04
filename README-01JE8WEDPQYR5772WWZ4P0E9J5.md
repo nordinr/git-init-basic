@@ -2,6 +2,11 @@
 runme:
   id: 01JE8WX1B5GEAQZFEMYCP9VHNK
   version: v3
+  document:
+    relativePath: README.md
+  session:
+    id: 01JE8WEDPQYR5772WWZ4P0E9J5
+    updated: 2024-12-04 21:38:37+08:00
 ---
 
 # GIT-DOCKER INTRODUCTION
@@ -64,14 +69,9 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 
 ![clone a project using ssh](./assets/clone.png)
 
-<<<<<<< HEAD
-Git clone command
-
 ```bash {"id":"01JE8WEDR6WKG188FYJ7BBG8S4"}
 git clone gi**********om:nordinr/git-init-basic.git
 ```
-
-=======
 
 Go to your workstation, open terminal on your work directory and type git clone command.
 Git clone command :
