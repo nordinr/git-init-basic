@@ -14,7 +14,7 @@ Git is a versioning control tools used to manage project and track changes.
 
 Here's the straight forward guidelines on how to install git on your machine
 
-> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+> ht*********************************************************it
 
 Run `git -v`command on Terminal/Poweshell to check Git was properly installed :
 
@@ -32,7 +32,7 @@ Open `Terminal` for MacOs or `Powershell` on Windows and type
 ssh-keygen -t rsa -C "<whatever-remark>"
 ```
 
-Copy and Paste the pubkey to your SSH-Key records in github account [here](https://github.com/settings/keys)
+Copy and Paste the pubkey to your SSH-Key records in github account [here](ht****************************ys)
 
 _MacOs :_
 
@@ -58,7 +58,7 @@ _Note: Other method to access or giving access is to set an __access token___
 
 Go to
 
-> https://github.com/nordinr/git-init-basic/
+> ht*************************************ic/
 
 Hit the code button (blue-colored) and copy the clone url (SSH)
 
@@ -68,7 +68,7 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 Git clone command
 
 ```bash {"id":"01JE8WEDR6WKG188FYJ7BBG8S4"}
-git clone git@github.com:nordinr/git-init-basic.git
+git clone gi**********om:nordinr/git-init-basic.git
 ```
 
 =======
@@ -77,7 +77,7 @@ Go to your workstation, open terminal on your work directory and type git clone 
 Git clone command :
 
 ```bash {"id":"01JE8WX1B5GEAQZFEMY9F279FH"}
-git clone git@github.com:nordinr/git-init-basic.git
+git clone gi**********om:nordinr/git-init-basic.git
 ```
 
 You will find a folder named 'git-init-basic' containing repo files from this github.
@@ -107,7 +107,7 @@ MAJOR: Incremented for breaking changes.
 MINOR: Incremented for new features that are backward-compatible.
 PATCH: Incremented for backward-compatible bug fixes.
 
-eg: v1.0.1, v1.1.2, v1.2.0-feature-name, v1-stable etc...
+eg: v1**.1, v1**.2, v1***************me, v1*****le etc...
 ```
 
 This basic introduction was made for PITA Projects' Students, UMT
@@ -118,7 +118,7 @@ This basic introduction was made for PITA Projects' Students, UMT
 
 For this practice, i assume docker were installed on your workstation
 
-To install docker, go to : https://docs.docker.com/desktop/
+To install docker, go to : ht***************************op/
 
 ## Running Docker Compose File
 
@@ -129,7 +129,7 @@ Here are the compose file name `compose.yaml` that was prepared for you to run. 
 services:
   php83:
     container_name: php83
-    image: nordinr/php83-oci8:latest
+    image: nordinr/ph******i8:latest
     ports:
       - 791:80
     restart: always
@@ -137,7 +137,7 @@ services:
       - ./php83:/var/www/html
   php82:
     container_name: php82
-    image: nordinr/php82-oci8:latest
+    image: nordinr/ph******i8:latest
     ports:
       - 792:80
     restart: always
@@ -165,8 +165,8 @@ docker ps
 
 # returned output
 CONTAINER ID   IMAGE                       COMMAND                  CREATED         STATUS         PORTS                 NAMES
-8089c54530ef   nordinr/php83-oci8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.0.0.0:791->80/tcp   php83
-5cd5557f2883   nordinr/php82-oci8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.0.0.0:792->80/tcp   php82
+80********ef   nordinr/ph******i8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.***.0:791->80/tcp   php83
+5c********83   nordinr/ph******i8:latest   "docker-php-entrypoi…"   5 seconds ago   Up 4 seconds   0.***.0:792->80/tcp   php82
 
 ```
 
@@ -181,12 +181,12 @@ volumes:
 
 You can place your project files inside those folders and access them with exposed url on localhost, for this case
 
-http://localhost:791 <---php83<br>
-http://localhost:792 <---php82
+ht****************91 <---php83<br>
+ht****************92 <---php82
 
 ## Docker Registry (Dockerhub)
 
-Explore images that can be use to deploy a container in docker registry : https://hub.docker.com
+Explore images that can be use to deploy a container in docker registry : ht******************om
 
 ![Dockerhub](./assets/dockerhub.png)
 -END-
