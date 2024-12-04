@@ -1,9 +1,13 @@
 # GIT-DOCKER INTRODUCTION
 
 # PART 01 - Git Basic Guide (Step-by-Step)
+<<<<<<< HEAD
 
 Git is a versioning control tools used to manage project and track changes.
 
+=======
+Git is a versioning control tool that is used to manage project and track changes.
+>>>>>>> fabfd4e1c01373f23a4f185b42836002052f35c2
 ## 1. Installing Git
 
 Here's the straight forward guidelines on how to install git on your machine
@@ -58,11 +62,22 @@ Hit the code button (blue-colored) and copy the clone url (SSH)
 
 ![clone a project using ssh](./assets/clone.png)
 
+<<<<<<< HEAD
 Git clone command
 
 ```bash {"id":"01JE8WEDR6WKG188FYJ7BBG8S4"}
 git clone git@github.com:nordinr/git-init-basic.git
 ```
+=======
+
+Go to your workstation, open terminal on your work directory and type git clone command. 
+Git clone command :
+
+   ```bash
+   git clone git@github.com:nordinr/git-init-basic.git
+   ```
+You will find a folder named 'git-init-basic' containing repo files from this github. 
+>>>>>>> fabfd4e1c01373f23a4f185b42836002052f35c2
 
 ## 4. Branch
 
