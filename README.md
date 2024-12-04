@@ -1,6 +1,6 @@
 
 # Introduction to GIT+DOCKER
-
+![Docker](https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png)
 # PART 01 - Git Basic Guide (Step-by-Step)
 
 Git is a versioning control tools used to manage project and track changes.
